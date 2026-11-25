@@ -73,8 +73,11 @@ def make_model(name: str):
 
 
 def is_overloaded(exc: Exception) -> bool:
+    """Errors where another model may still work: overloaded (503), out of free quota (429),
+    or retired for new users (404)."""
     text = str(exc)
-    return any(s in text for s in ("503", "UNAVAILABLE", "high demand", "429", "RESOURCE_EXHAUSTED"))
+    return any(s in text for s in ("503", "UNAVAILABLE", "high demand", "429", "RESOURCE_EXHAUSTED",
+                                   "404", "NOT_FOUND", "no longer available"))
 
 
 # --------------------------------------------------------------------------- approval
