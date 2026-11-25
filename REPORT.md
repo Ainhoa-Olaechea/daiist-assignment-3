@@ -295,5 +295,5 @@ I used **Claude (Anthropic)** for:
 - **Design decisions:** I used Claude to explore possible approaches and understand their trade-offs. I made the final decisions regarding the use case (compliance analyst), corpus (UCITS acts), chunking strategies (fixed vs. article-based), retrieval configuration (fixed chunking, k = 5, based on retrieval results), duplicate handling (skip-if-identical), evaluation judge criteria (strict on numerical accuracy) and the addition of UCITS V.
 - **Test set, AGENTS.md and subagent:** I used Claude to help structure and prepare these components. I reviewed the outputs and verified the test set against the index using the checker.
 - **Human evaluation:** I personally graded the 22 answers using the `grade.py` helper. Claude provided suggestions for grades and evaluation notes, which I reviewed and adjusted before entering the final grades.
-- **Report:** I used Claude to help structure and refine the report based on my results.
+- **Report:** I used Claude to help structure and refine the report based on my analysis of the results.
 - **Claude Code:** I also used Claude Code to assist with running the subagent.
