@@ -29,7 +29,7 @@ every answer must carry a citation the analyst can check.
 | **Total** | | | | **66,937** |
 | *Added later with add_document:* Directive 2014/91/EU (UCITS V) | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0091 | 23 Jul 2014 | same | – |
 
-All documents are public EU law and contain no personal data. The corpus holds the **original** texts, not the
+All documents are public EU law and contain no personal data. The corpus holds the original texts, not the
 consolidated versions, so later amendments are deliberately left out (this is what makes some test questions
 unanswerable).
 
