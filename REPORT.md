@@ -59,7 +59,7 @@ it arrives, which mattered with the free-tier limit of about 1,000 embeddings a 
 **Embedding:** `gemini-embedding-2`, 768 dimensions, one text per call, with the recommended prefixes
 (`title: … | text: …` for chunks, `task: question answering | query: …` for queries). Query vectors are cached.
 
-**Number of chunks:** article design 316, fixed design 420 (+93 after adding UCITS V). `index/` is about 15 MB.
+**Number of chunks:** article design 316, fixed design 420 (+93 after adding UCITS V). `index/ 18 MB.
 
 ## Test set
 
@@ -212,6 +212,8 @@ answer was replaced by a refusal, which became a wrong refusal. It also fired af
 `add_document` call: the agent's confirmation had no citation, so it was shown as "I don't know" even though
 the document had been added. Both show the guardrail is strict; the next version should allow
 citation-free replies to non-question requests.
+
+The call limit also fired during the final check: with gemini-3.5-flash-lite the agent kept searching (8 tool calls) without answering, and the harness stopped it and returned "I don't know". With gemini-3.1-flash-lite the same question was answered correctly with one search.
 
 ## Evaluation
 

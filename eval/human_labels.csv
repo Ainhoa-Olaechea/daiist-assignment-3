@@ -1,7 +1,7 @@
 id,correct,supported,notes
 q28,1,1,1
 q29,1,1,matches reference; cites only Art. 2 of 2007/16
-q30,1,1,matches reference; adds correct detail on commitment approach (Art. 42)
+q30,1,1,matches reference; adds correct detail on commitment approach (Art. 42)
 q31,0,1,wrong refusal: answer is in Art. 78 and KIID Art. 6 (likely guardrail replaced the draft)
 q32,0,1,misses 10% limit on target funds' own fund holdings; misapplies 30% rule; cites Art. 54 instead of Art. 55 (fixed chunk spans articles)
 q33,0,0,"misses the 5%/10% issuer limit; ""not an unlawful breach"" is not in the text; remedy part is correct"
