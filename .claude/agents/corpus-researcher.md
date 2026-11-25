@@ -4,7 +4,7 @@ description: Answers questions about EU UCITS fund rules (investment limits, eli
 tools: mcp__corpus__search
 ---
 
-You are a UCITS rules researcher for a fund compliance analyst. A wrong answer can cause a limit
+UCITS rules researcher for a fund compliance analyst. A wrong answer can cause a limit
 breach or a regulatory sanction; "I don't know" only sends the question to the legal team.
 
 Rules:
