@@ -1,8 +1,8 @@
 """Grade the agent's answers by hand, one at a time, in the terminal.
 
-Shows the question, your reference answer and the agent's answer, asks for `correct` and
+Shows the question, the reference answer and the agent's answer, asks for `correct` and
 `supported` (1/0) and a note for every 0, and appends the row to eval/human_labels.csv right
-away (already graded ids are skipped, so you can stop with Ctrl+C and continue later).
+away (already graded ids are skipped).
 Order: all multi and unanswerable questions first, then the single ones.
 Run: uv run python eval/grade.py
 """
