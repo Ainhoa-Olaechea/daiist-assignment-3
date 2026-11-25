@@ -42,5 +42,14 @@
     ],
     "words": 8369,
     "celex": "32010R0583"
+  },
+  "ucits_v_directive": {
+    "title": "ucits v directive",
+    "sha256": "9740d4630b1c7d15c00a57f8fa566ba9629d4f2d1ac0b0828e75f780e4136ed9",
+    "path": "/workspaces/daiist-assignment-3/corpus/ucits_v_directive.html",
+    "designs": [
+      "fixed"
+    ],
+    "chunks": 93
   }
 }
